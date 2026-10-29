@@ -15,7 +15,7 @@ jobs:
         uses: docker/login-action@v2
         with:
           username: akshay0131
-          password: Ap_0131
+          password: dckr_pat_z6aXoqzjRfQ1wdAi7gZqRrQU3zs
 
       - name: Build and Push Docker Image
         uses: docker/build-push-action@v4
